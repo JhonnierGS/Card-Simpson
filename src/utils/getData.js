@@ -1,4 +1,4 @@
-const API = process.env.API;
+const API = "https://thesimpsonsquoteapi.glitch.me/quotes";
 console.log(API)
 
 const getData = async (id) => {
